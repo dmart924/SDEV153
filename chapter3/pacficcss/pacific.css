@@ -11,11 +11,9 @@ dt {
 }
 
 footer {
-    width: 100%;
     font-size: 0.70 em;
     font-style: italic;
-    margin-right: auto;
-    margin-left: auto;
+    text-align: center;
 }
 
 h1 {
