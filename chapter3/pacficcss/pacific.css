@@ -21,6 +21,7 @@ h1 {
     color: #ffffff;
     font-family: Georgia, serif;
     line-height: 200%;
+    text-indent: .1em;
 }
 
 h2 {
@@ -41,3 +42,9 @@ nav {
 
 }
 
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
