@@ -11,7 +11,7 @@ dt {
 }
 
 footer {
-    font-size: 0.70 em;
+    font-size: 0.70em;
     font-style: italic;
     text-align: center;
 }
@@ -21,6 +21,7 @@ h1 {
     color: #ffffff;
     font-family: Georgia, serif;
     line-height: 200%;
+    text-indent: .1em;
 }
 
 h2 {
@@ -37,7 +38,13 @@ nav {
 
 .resort { 
     color: #1976d2;
-    font-size: 1.2 em;
+    font-size: 1.2em;
 
 }
 
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
