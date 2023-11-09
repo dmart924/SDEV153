@@ -1,8 +1,9 @@
 body {
-    background-color: lightblue;
+    /*background-color: lightblue;*/
     color: #666666; 
     font-family: Verdana, Arial, sans-serif;
     background-image: linear-gradient(to bottom, white, lightblue);
+    background-repeat: no-repeat;
 }
 
 dt {
@@ -47,5 +48,8 @@ nav {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: white;
 
 }
