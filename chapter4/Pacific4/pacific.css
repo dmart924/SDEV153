@@ -35,12 +35,37 @@ h1 {
 h2 {
     color: #1976d2;
     font-family: Georgia, serif;
-
 }
 
-h3{
+h3 {
     font-family: Georgia, serif;
+}
 
+#homehero {
+    background-image: url(Images/coast.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%;   
+}
+
+#trailhero{
+    background-image: url(Images/trail.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%; 
+}
+
+#yurthero{
+    background-image: url(Images/yurt.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: 100% 100%; 
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
 }
 
 nav {
@@ -51,6 +76,7 @@ nav {
     padding-right: 0.5em;
 
 }
+
 
 .resort { 
     color: #1976d2;
@@ -67,6 +93,4 @@ nav {
     background-color: white;
     text-indent: .1em;
     box-shadow: 5px 5px black;
-    padding-left: 2em;
-    padding-right: 2em;
 }
