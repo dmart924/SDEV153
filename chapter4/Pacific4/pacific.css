@@ -26,8 +26,9 @@ h1 {
     background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 72px;
-    text-align: center;
     padding-top: 0.5em ;
+    padding-bottom: 0.5em;
+    text-align: center;
 }
 
 h2 {
@@ -38,7 +39,10 @@ h2 {
 
 nav {
     font-weight: 700;
-    background-color: skyblue;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
 
 }
 
