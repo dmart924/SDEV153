@@ -88,8 +88,6 @@ nav a { text-decoration: none; }
     min-width: 960px;
     max-width: 2048px;
     width: 80%;
-    margin-right: auto;
-    margin-left: auto;
     background-color: white;
     text-indent: .1em;
     box-shadow: 5px 5px black;
