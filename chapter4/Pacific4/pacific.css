@@ -22,10 +22,12 @@ h1 {
     background-color: #002171;
     color: #ffffff;
     font-family: Georgia, serif;
-    line-height: 200%;
     background-image: url(Images/sunset.jpg);
     background-position: right;
     background-repeat: no-repeat;
+    background-size: 100% 72px;
+    text-align: center;
+    padding-top: 0.5em ;
 }
 
 h2 {
