@@ -67,5 +67,6 @@ nav {
     background-color: white;
     text-indent: .1em;
     box-shadow: 5px 5px black;
-
+    padding-left: 2em;
+    padding-right: 2em;
 }
