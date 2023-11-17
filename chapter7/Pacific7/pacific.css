@@ -151,3 +151,44 @@ section {
     background-color: white;
     text-indent: .1em;
 }
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    h1 {
+        font-size: 2em;
+        letter-spacing: 0.25em;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        padding-right: 2em;
+    }
+    nav li {
+        width: 12 em;
+        border-bottom: none;
+        }
+    section {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+    #mobile {
+        display: none;
+    }
+    
+    #desktop {
+        display: inline;
+    }
+
+    #homehero, #yurthero, #trailhero {
+        background-size: 100% 100%
+    }
+    
+}
