@@ -22,7 +22,6 @@ footer {
     text-align: center;
     padding: 1em;
     background-color: white;
-    margin-left: 170px;
 }
 
 header {
@@ -63,32 +62,28 @@ h3 {
     background-image: url(Images/coast.jpg);
     background-repeat: no-repeat;
     height: 300px;
-    background-size: 100% 100%;
-    margin-left: 170px;
+    background-size: 200% 100%; 
 }
 
-#trailhero{
+#trailhero {
     background-image: url(Images/trail.jpg);
     background-repeat: no-repeat;
     height: 300px;
-    background-size: 100% 100%;
-    margin-left: 170px;
+    background-size: 200% 100%;
 }
 
-#yurthero{
+#yurthero {
     background-image: url(Images/yurt.jpg);
     background-repeat: no-repeat;
     height: 300px;
-    background-size: 100% 100%;
-    margin-left: 170px;
+    background-size: 200% 100%;
 }
 
 main {
-    background-color: #ffffff;
-    margin-left: 170px;
-    overflow: auto;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
     display: block;
 }
 
@@ -138,10 +133,8 @@ nav ul {
 }
 
 section {
-    float:left;
-    width: 33%;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
 
 #wrapper {
