@@ -4,9 +4,10 @@
 }
 
 body {
-    background-color: #EAEAEA;
+    background-color: #90C7E3;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
+    margin: 0;
     
 }
 
@@ -25,7 +26,7 @@ footer {
 }
 
 header {
-    height: 120px;
+    padding: 1em;
 }
 
 header a {
@@ -45,10 +46,7 @@ h1 {
     background-color: #002171;
     color: #ffffff;
     font-family: Georgia, serif;
-    font-size: 3em;
-    letter-spacing: 0.25 em;
-    padding-top: 0.85em;
-    padding-bottom: 0.87em;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -95,12 +93,10 @@ main {
 }
 
 nav {
-    float: left;
     font-size: 1.2em;
-    width: 160px;
-    font-weight: 700;
-    padding: 0;
-    position: fixed;
+    background-color: white;
+    text-align: center;
+
 }
 
 nav a { text-decoration: none; }
@@ -117,9 +113,22 @@ nav a:hover {
     color: #A52A2A;
 }
 
+nav li{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.0em;
+    padding-right: 1.0em;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
 nav ul {
+    display: flex;
+    flex-direction:column;
     list-style: none;
-    padding-left: 1em;
+    padding-left: 0;
+    margin: 0;
+
 }
 
 .resort { 
@@ -136,13 +145,8 @@ section {
 }
 
 #wrapper {
-    background-image: linear-gradient(to bottom, white, lightblue);
     min-width: 960px;
     max-width: 2048px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 80%;
     background-color: white;
     text-indent: .1em;
-    box-shadow: 5px 5px black;
 }
