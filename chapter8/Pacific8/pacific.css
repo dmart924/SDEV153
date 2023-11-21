@@ -173,10 +173,6 @@ tr:nth-child(even){
     background-color: lightblue;
 }
     
-
-    
-
-
 #wrapper {
     min-width: 960px;
     max-width: 2048px;
