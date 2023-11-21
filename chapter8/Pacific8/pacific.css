@@ -144,6 +144,39 @@ section {
     padding-right: 0.5em;
 }
 
+table{
+    border-color: blue;
+    border-width: 1px;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+    border-color: blue;
+    border-width: 1px;
+    text-align: center;
+}
+
+td.text{
+    text-align: left;
+}
+
+
+th{ 
+    padding: 5px;
+    border-color: blue;
+    border-width: 1px;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+    
+
+    
+
+
 #wrapper {
     min-width: 960px;
     max-width: 2048px;
