@@ -146,7 +146,7 @@ section {
 
 table{
     border-color: blue;
-    border-width: 1px;
+    border: 1px solid;
     width: 90%;
     border-collapse: collapse;
 }
@@ -154,7 +154,7 @@ table{
 td{
     padding: 5px;
     border-color: blue;
-    border-width: 1px;
+    border: 1px solid;
     text-align: center;
 }
 
@@ -166,7 +166,7 @@ td.text{
 th{ 
     padding: 5px;
     border-color: blue;
-    border-width: 1px;
+    border: 1px solid;
 }
 
 thead{
