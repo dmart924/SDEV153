@@ -145,16 +145,14 @@ section {
 }
 
 table{
-    border-color: blue;
-    border: 1px solid;
+    border: 1px solid blue;
     width: 90%;
     border-collapse: collapse;
 }
 
 td{
     padding: 5px;
-    border-color: blue;
-    border: 1px solid;
+    border: 1px solid blue;
     text-align: center;
 }
 
@@ -165,8 +163,7 @@ td.text{
 
 th{ 
     padding: 5px;
-    border-color: blue;
-    border: 1px solid;
+    border: 1px solid blue;
 }
 
 tr:nth-child(even){
