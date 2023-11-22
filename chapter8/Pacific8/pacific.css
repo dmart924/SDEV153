@@ -169,6 +169,11 @@ th{
     border-width: 1px;
 }
 
+thead{
+    background-color: lightblue;
+
+}
+
 tr:nth-child(even){
     background-color: lightblue;
 }
