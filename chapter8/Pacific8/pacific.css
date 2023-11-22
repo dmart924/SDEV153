@@ -169,11 +169,7 @@ th{
     border: 1px solid;
 }
 
-thead{
-    background-color: lightblue;
-}
-
-tr:nth-child(even){
+tr:nth-child(odd){
     background-color: lightblue;
 }
     
