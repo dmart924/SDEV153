@@ -15,15 +15,17 @@
         var simpleRe = new RegExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$')
         const retVal = simplRe.test(val)
         
-        if (retVal) {
+        if (retVal) 
+        {
             element2.innerText=""
             element2.style.display = 'None';
         }
         
-        else{ 
+        else
+        { 
             element2.style.display = 'block';
             element2.style.backgroundColor = 'red';
-            element2.innerText = " Please enter a phone number in the format XXX-XXX-XXXX"
+            element2.innerText = "Please enter a phone number in the format XXX-XXX-XXXX"
         }
     }
     </script>
@@ -54,7 +56,7 @@
                     <label for="myFName">*First Name:</label> <input type="text" id="myFName" name="myFName" required>
                     <label for="myLName">*Last Name:</label> <input type="text" id="myLName" name="myLName" required> 
                     <label for="myEmail">*Email:</label> <input type="email" id="myEmail" myEmail="myEmail" required>
-                    <label for="myPhone" onblur="checkNumber('myPhone')">Phone:</label> <input type="text" id="myPhone" name="myPhone">
+                    <label for="myPhone" onsubmit="checkNumber('myPhone');">Phone:</label> <input type="text" id="myPhone" name="myPhone">
                     <label for="myDate">Arrival:</label> <input type="date" id="myDate"  name="myDate">
                     <label for="myNights">Nights:</label> <input type="number" id="myNights" min="1" max="14" name="myNights">
                     <label for="myComments">*Comments:</label> <textarea id="myComments" rows="2" cols="20" name="myComments"  required ></textarea>   
