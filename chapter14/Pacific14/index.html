@@ -49,11 +49,12 @@
     <footer>
         Copyright &#xa9; 2020 Pacific Trails Resort<br>
         <a href="mailto:dmartin442@ivytech.edu">dmartin442@ivytech.edu</a>
-        <div>
-            <script>
-                document.lastModified;
-            </script>
+        <div id="lastModified">
         </div>
+        <script>
+            const lm = document.getElementById("lastModified");
+            lm.innerText = "Last modified on: &nbsp" + document.lastModified;
+        </script>
     </footer>
     </div>
 </body>
