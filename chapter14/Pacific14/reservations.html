@@ -7,13 +7,24 @@
     <link rel="stylesheet" href="pacific.css">
 
     <script> 
-    function checkPhone(myId)
+    function checkPhone(myId, msgId)
     {
         const element = document.getElementById(myId)
-        const cal = element.value;
+        const element2 = document.getElementById(msgId)
+        const val = element.value;
         var simpleRe = new RegExp('^[0-9]{3}-[0-9]{3}-[0-9]{4}$')
-
-        return simplRe.test(val)
+        const retVal = simplRe.test(val)
+        
+        if (retVal) {
+            element2.innerText=""
+            element2.style.display = 'None';
+        }
+        
+        else{ 
+            element2.style.display = 'block';
+            element2.style.backgroundColor = 'red';
+            element2.innerText = " Please enter a phone number in the format XXX-XXX-XXXX"
+        }
     }
     </script>
     
@@ -49,8 +60,8 @@
                     <label for="myComments">*Comments:</label> <textarea id="myComments" rows="2" cols="20" name="myComments"  required ></textarea>   
                     <input type="submit" id="submit" value="Submit">
                 </form>
+            <div><span id="message"></span></div>
             
-
     </main>
     <footer>
         Copyright &#xa9; 2020 Pacific Trails Resort<br>
