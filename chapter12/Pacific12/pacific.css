@@ -169,18 +169,18 @@ shop {
 
 }
 
-.shop img {
+.shop {
     margin: 1em;
     background-color: #F4F4F4;
+}    
 
-    img {
-        padding: 1em
-        float: right;
-    }
-    form{
-        clear: right;
-        
-    }
+.shop img {
+    padding: 1em;
+    float: right;
+}
+
+.shop form{
+    clear: right;  
 }
 
 #shophero{
