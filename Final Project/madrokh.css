@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #90C7E3;
+    background-color: #a35c5c;
     color: #666666;
     font-family: Verdana, Arial, sans-serif;
     margin: 0;
@@ -237,7 +237,6 @@ tr:nth-child(even){
     }
     #mobile {
         display: none;
-        background-color: #a35c5c;
     }
     
     #desktop {
