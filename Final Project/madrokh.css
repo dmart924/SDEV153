@@ -237,6 +237,7 @@ tr:nth-child(even){
     }
     #mobile {
         display: none;
+        background-color: #a35c5c;
     }
     
     #desktop {
