@@ -46,7 +46,7 @@ header a:link,a:visited {
 }
 
 header a:hover {
-    color: lightblue;
+    color: rgb(230, 173, 173);
 
 }
 
