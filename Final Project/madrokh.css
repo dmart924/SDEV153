@@ -42,7 +42,7 @@ header a {
 }
 
 header a:link,a:visited {
-    color: white;
+    color: #707070;
 }
 
 header a:hover {
@@ -52,7 +52,7 @@ header a:hover {
 
 h1 {
     background-color: #4b0303;
-    color: #ffffff;
+    color: #707070;
     font-family: Georgia, serif;
     font-size: 1.5em;
     text-align: center;
