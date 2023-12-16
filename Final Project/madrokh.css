@@ -14,7 +14,7 @@ body {
 }
 
 dt {
-    color: darkblue;
+    color: rgb(139, 0, 0);
     font-weight: 700;  
 }
 
@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-    color: #1976d2;
+    color: #726262;
     font-family: Georgia, serif;
 }
 
@@ -115,11 +115,11 @@ nav {
 nav a { text-decoration: none; }
 
 nav a:link {
-    color: #5c7fa3
+    color: #a35c5c
 }
 
 nav a:visited {
-     color: #344873; 
+     color: #707070; 
 }
 
 nav a:hover {
@@ -145,7 +145,7 @@ nav ul {
 }
 
 .resort { 
-    color: #1976d2;
+    color: #726262;
     font-size: 1.2em;
 
 }
@@ -164,7 +164,7 @@ section {
 }
 
 table{
-    border: 1px solid blue;
+    border: 1px solid black;
     width: 90%;
     border-collapse: collapse;
     margin: auto;
@@ -176,7 +176,7 @@ textarea{
 
 td{
     padding: 5px;
-    border: 1px solid blue;
+    border: 1px solid black;
     text-align: center;
 }
 
@@ -187,11 +187,11 @@ td.text{
 
 th{ 
     padding: 5px;
-    border: 1px solid blue;
+    border: 1px solid black;
 }
 
 tr:nth-child(even){
-    background-color: lightblue;
+    background-color: #9e9e9e63;
 }
     
 #wrapper {
