@@ -98,20 +98,6 @@ input{
     background-size: 100% 100%;
 }
 
-#trailhero {
-    background-image: url(Images/trail.jpg);
-    background-repeat: no-repeat;
-    height: 300px;
-    background-size: 100% 100%;
-}
-
-#yurthero {
-    background-image: url(Images/yurt.jpg);
-    background-repeat: no-repeat;
-    height: 300px;
-    background-size: 100% 100%;
-}
-
 main {
     padding-top: 0;
     padding-bottom: 0;
@@ -123,6 +109,14 @@ main {
 #mobile {
     display: inline;
 
+}
+
+#remnantsmain {
+    background-image: url(Images/remnantsshop.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 1000px;
+    background-size: 100% 100%;
 }
 
 nav {
@@ -303,7 +297,7 @@ tr:nth-child(even){
 @media only screen and (min-width: 1024px) {
     
     body {
-        background-image: linear-gradient(to bottom, rgb(136, 70, 70) 20%, #ad1b1b 60%, rgb(136, 70, 70) 100%);
+        background-image: linear-gradient(to bottom, #8d1d1c 30%, #ad1b1b 40%, #8d1d1c 100%);
     }
 
     nav ul {
