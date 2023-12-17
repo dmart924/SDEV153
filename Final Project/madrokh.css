@@ -18,9 +18,6 @@ about{
     float: inherit;
 }
 
-.about form{
-    float: right;  
-}
 
 body {
     background-color: #a35c5c;
@@ -265,10 +262,6 @@ tr:nth-child(even){
         display: none;
     }
     
-    #flow {
-        display: flex;
-        flex-direction: row;
-    }
 
     #desktop {
         display: inline;
