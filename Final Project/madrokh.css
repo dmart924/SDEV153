@@ -265,7 +265,7 @@ tr:nth-child(even){
     #flow {
         display: flex;
         flex-direction: row;
-        width: auto;
+        width: 100%;
         margin: auto;
     }
 
