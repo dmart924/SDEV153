@@ -265,6 +265,8 @@ tr:nth-child(even){
     #flow {
         display: flex;
         flex-direction: row;
+        width: auto;
+        margin: auto;
     }
 
     #desktop {
