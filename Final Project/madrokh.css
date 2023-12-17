@@ -273,7 +273,7 @@ tr:nth-child(even){
         display: inline;
     }
 
-    #homehero, #yurthero, #trailhero {
+    #homehero {
         background-size: 100% 100%
     }
 
