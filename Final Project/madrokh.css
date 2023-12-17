@@ -303,3 +303,24 @@ tr:nth-child(even){
     
 
 }
+
+@media only screen and (min-width: 768px) {
+    
+    body {
+        background-image: linear-gradient(to bottom, #8d1d1c 30%, #ad1b1b 40%, #8d1d1c 100%);
+    }
+
+    nav ul {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    #wrapper {
+        margin-left:auto;
+        margin-right:auto;
+        width: 80%;
+    }
+
+    
+
+}
