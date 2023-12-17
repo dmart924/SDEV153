@@ -262,6 +262,10 @@ tr:nth-child(even){
         display: none;
     }
     
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
 
     #desktop {
         display: inline;
