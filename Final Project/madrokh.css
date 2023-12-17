@@ -2,6 +2,26 @@
     box-sizing: border-box;
 }
 
+about{
+    margin: 1em; 
+    background-color: #63101042;
+
+}
+
+.about {
+    margin: 1em;
+    background-color: #63101042;
+}    
+
+.about img {
+    padding: 1em;
+    float: inherit;
+}
+
+.about form{
+    float: right;  
+}
+
 body {
     background-color: #a35c5c;
     color: #666666;
@@ -259,6 +279,11 @@ tr:nth-child(even){
         display: none;
     }
     
+    #flow {
+        display: flex;
+        flex-direction: row;
+    }
+
     #desktop {
         display: inline;
     }
