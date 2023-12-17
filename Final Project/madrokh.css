@@ -163,6 +163,26 @@ section {
     padding-right: 0.5em;
 }
 
+shop {
+    margin: 1em; 
+    background-color: #F4F4F4;
+
+}
+
+.shop {
+    margin: 1em;
+    background-color: #F4F4F4;
+}    
+
+.shop img {
+    padding: 1em;
+    float: right;
+}
+
+.shop form{
+    float: right;  
+}
+
 table{
     border: 1px solid black;
     width: 90%;
